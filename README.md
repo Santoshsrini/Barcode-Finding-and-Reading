@@ -13,7 +13,8 @@ The image processed regions of interest are then sent as input to the pyzbar lib
 Key Results: 
 
 Barcode values along with the number of appearances in the image are printed.
-Bounding box of black color is displayed around every object that has a barcode. Bounding box of blue color and the barcode value is displayed around the barcode detected. 
+Bounding box of black color is displayed around every object that has a barcode. 
+Bounding box of blue color and the barcode value is displayed around the barcode detected. 
 Bounding box of red is displayed around the object that doesn't have a barcode. 
 
 Resulting images after performing the algorithm are saved in the folders - all barcodes, partial and missing barcodes, missing barcodes, partial barcodes. 
