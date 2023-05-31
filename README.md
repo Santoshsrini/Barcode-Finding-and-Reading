@@ -30,3 +30,8 @@ All necessary packages can be imported during execution.
 Run all cells to execute. 
 
 
+Key Results:
+
+![IMG_20220303_175539](https://github.com/Santoshsrini/Barcode-Finding-and-Reading/assets/28926309/00ef08ce-7767-42c3-a5bb-c5894f3b5497)
+![IMG_20220303_175324](https://github.com/Santoshsrini/Barcode-Finding-and-Reading/assets/28926309/65b97e46-015d-43be-9428-0ff8a50f7e11)
+
