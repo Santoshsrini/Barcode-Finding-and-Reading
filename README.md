@@ -32,7 +32,9 @@ Run all cells to execute.
 
 Key Results:
 
-All barcode:
+## All barcode:
+
+![IMG_20220303_173611](https://github.com/Santoshsrini/Barcode-Finding-and-Reading/assets/28926309/2e26b7b5-4143-4df7-8b8b-6c1c58cb6443)
 
 Barcodes: 8901719112737 Count: 1
 
@@ -44,28 +46,70 @@ Barcode: http://qr.w69b.com/g/ogRXOfCg0 Count: 1
 
 Barcode: 8901030574252 Count: 1
 
-
-![IMG_20220303_173611](https://github.com/Santoshsrini/Barcode-Finding-and-Reading/assets/28926309/2e26b7b5-4143-4df7-8b8b-6c1c58cb6443)
-
+<br/>
+<br/>
 
 ![IMG_20220303_173846](https://github.com/Santoshsrini/Barcode-Finding-and-Reading/assets/28926309/344847d5-a863-4f4f-8d43-8267ee134197)
 
+Barcode: 8901030578199 Count: 1
+
+Barcode: 8901030609350 Count: 1
+
+Barcode: 8901030781063 Count: 1
+
+Barcode: 8901063160088 Count: 1
+
+Barcode: 8901030656026 Count: 1
+
+Barcode: http://everestspices.com/?ref=qr Count: 2
+
+Barcode: 8901725114916 Count: 3
+
+Barcode: 8906021125000 Count: 1
+
+Total No of barcodes detected:  11
+
+<br/>
+<br/>
 
 ![IMG_20220303_175539](https://github.com/Santoshsrini/Barcode-Finding-and-Reading/assets/28926309/00ef08ce-7767-42c3-a5bb-c5894f3b5497)
+
+Total No of barcodes detected:  0
+
+<br/>
+<br/>
+
+
 ![IMG_20220303_175324](https://github.com/Santoshsrini/Barcode-Finding-and-Reading/assets/28926309/65b97e46-015d-43be-9428-0ff8a50f7e11)
 
+Barcode: 8901719110856 Count: 1
 
-Missing and Partial Barcode:
+Total No of barcodes detected:  1
 
-IMG_20220303_174744.jpg
+<br/>
+<br/>
+
+
+## Missing and Partial Barcode:
 
 ![IMG_20220303_174744](https://github.com/Santoshsrini/Barcode-Finding-and-Reading/assets/28926309/e9f6a86f-9a6f-498c-b491-0602bd7b2e57)
 
+Barcode: 8901030795589 Count: 1
 
-Missing Barcodes:
+Barcode: 8901725118457 Count: 1
+
+Total No of barcodes detected:  2
+
+
+<br/>
+<br/>
+
+## Missing Barcodes:
 
 
 ![IMG_20220303_174028](https://github.com/Santoshsrini/Barcode-Finding-and-Reading/assets/28926309/262d4a3b-317e-4aae-9b23-0a173753ce7b)
+
+
 ![IMG_20220303_174953](https://github.com/Santoshsrini/Barcode-Finding-and-Reading/assets/28926309/5724efc0-35c9-4bb1-b153-69e974baf10c)
 ![IMG_20220303_175557](https://github.com/Santoshsrini/Barcode-Finding-and-Reading/assets/28926309/ec535e17-0b4c-4fd4-ac39-af50b71ad3ba)
 ![IMG_20220303_175627](https://github.com/Santoshsrini/Barcode-Finding-and-Reading/assets/28926309/b034bd3b-7c12-40a9-9d80-557932271e35)
