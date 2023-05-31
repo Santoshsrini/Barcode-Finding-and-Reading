@@ -1,8 +1,6 @@
 # Barcode-Finding-and-Reading
 Mowito Project
 
-Read me: 
-
 The following project is for detecting and decoding barcodes in a given image using Fast R-CNN and Pyzbar library.  Below are the steps
 
 Object detection is performed in the image using Fast R-CNN to get the potential regions. 
@@ -10,7 +8,7 @@ Then the potential regions are filtered using  confidence score removing less pr
 The final regions of interest in the image are chosen and image processing techniques such as conversion to grayscale, scaling and thresholding are applied.
 The image processed regions of interest are then sent as input to the pyzbar library for decoding barcodes. 
 
-Key Results: 
+# Key Results: 
 
 Barcode values along with the number of appearances in the image are printed.
 Bounding box of black color is displayed around every object that has a barcode. 
