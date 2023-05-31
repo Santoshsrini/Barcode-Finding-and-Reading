@@ -222,7 +222,7 @@ Performed several other contour detection techniques too such as aplying gradien
 
 ## Using YOLO:
 
-Came to the conclusion that using predetermined ML models were better for object detection. Tried YOLO but none of the objects were detected as they were not part of training labels. 
+Tried YOLO but none of the objects were detected as they were not part of training labels, so didn't use this. But in the future, maybe thought of using transfer learning by adding a new label called as "unknown" and then predicting. 
 
 ## Using Fast-R CNN:
 
