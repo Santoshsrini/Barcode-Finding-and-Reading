@@ -192,5 +192,47 @@ Total No of barcodes detected:  0
 <br/>
 <br/>
 
+# Lead-up methods:
+
+## Only using the Pyzbar Library: 
+
+Only using the pyzbar library for barcode detection didn't give the best accuracy. Pyzbar works better when a small region is given as input. Accuracy was better when the detected object was passed for barcode detection. 
+
+![download (1)_compressed](https://github.com/Santoshsrini/Barcode-Finding-and-Reading/assets/28926309/18ac50f6-ca20-469a-9220-fcd29faf340c)
 
 
+## Using Contour detection techniques:
+
+![contour_compressed](https://github.com/Santoshsrini/Barcode-Finding-and-Reading/assets/28926309/92e6a240-2300-49e4-8fc0-1e392bbb097c)
+
+
+Tried performing object detection using contour detection. But detected regions were too many than the actual number.
+
+
+![cluster contours_compressed](https://github.com/Santoshsrini/Barcode-Finding-and-Reading/assets/28926309/a3fbefdb-1d5d-4219-a65c-49dd48ad6851)
+
+Tried combining several contours by concatening them based on clusters. But the issue here was how do you predetermine the number of clusters. There were methods where the algorithm itself could compute the optimal number but even these required a maximum number. Above was for 4 clusters.
+
+Performed several other contour detection techniques too such as aplying gradients, performing image processing such as dilation before contour detection but once again accuracy was poor. 
+
+![image](https://github.com/Santoshsrini/Barcode-Finding-and-Reading/assets/28926309/69e9e84d-5646-43fb-ae65-b289cb1ac04d)
+
+
+** Came to conclusion that for object detection ML models were the best option **
+
+## Using YOLO:
+
+Came to the conclusion that using predetermined ML models were better for object detection. Tried YOLO but none of the objects were detected as they were not part of training labels. 
+
+## Using Fast-R CNN:
+
+Fast R-CNN gave results in predicting the object detection regions although the label it predicted was for " books " but nonetheless it served the purpose as the region mattered more than the prediction. 
+
+![object detection using fast r cnn_compressed](https://github.com/Santoshsrini/Barcode-Finding-and-Reading/assets/28926309/778ec08e-6077-4eb1-b659-e772ee17df0d)
+
+But this gave many overlapping bounding boxes, so performed NMS to reduce the overlap. 
+
+![nms obj detection_compressed](https://github.com/Santoshsrini/Barcode-Finding-and-Reading/assets/28926309/581bd566-ebf9-4c21-b57c-95c0f955297f)
+
+
+Then performed barcode detection passing each finally obtained region for pyzbar. Before passing scaling, grayscale conversion and thresholding were applied. The parameters for each of these were set based on experimentation ( eg: scaling to 4x gave a better accuarcy instead of 2x etc. )
