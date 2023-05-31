@@ -152,15 +152,47 @@ Total No of barcodes detected:  0
 <br/>
 
 
-Partial Barcode:
+## Partial Barcode:
 
 ![IMG_20220303_173853_compressed](https://github.com/Santoshsrini/Barcode-Finding-and-Reading/assets/28926309/5353e3d2-db2d-4c40-92ff-9947fc428e9a)
 
+Barcode: 8901063160088 Count: 2
+
+Barcode: 8901030656026 Count: 1
+
+Barcode: http://everestspices.com/?ref=qr Count: 2
+
+Barcode: 8901030609350 Count: 1
+
+Barcode: 8901725114916 Count: 2
+
+Total No of barcodes detected:  8
+
+<br/>
+<br/>
 
 ![IMG_20220303_174238](https://github.com/Santoshsrini/Barcode-Finding-and-Reading/assets/28926309/23703d30-64de-4851-a2f4-17c5d2515c56)
+
+Total No of barcodes detected:  0
+
+<br/>
+<br/>
+
 ![IMG_20220303_175317](https://github.com/Santoshsrini/Barcode-Finding-and-Reading/assets/28926309/dfcf1a90-3611-4238-aa5e-f860dd66dab7)
+
+Barcode: 8901719110856 Count: 2
+
+Total No of barcodes detected:  2
+
+<br/>
+<br/>
+
 ![IMG_20220303_175451](https://github.com/Santoshsrini/Barcode-Finding-and-Reading/assets/28926309/bc56ba71-1d10-4197-9307-ca4484b822ab)
 
+Total No of barcodes detected:  0
+
+<br/>
+<br/>
 
 
 
